@@ -25,7 +25,8 @@ import {
     threejs,
     angular,
     onhova,
-    semicolon
+    semicolon,
+    onhovaShot
 } from "../assets";
 
 export const navLinks = [
@@ -60,7 +61,7 @@ const services = [
         title: "Angular Developer",
         icon: mobile,
     },
- 
+
 ];
 
 const technologies = [
@@ -199,41 +200,46 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "E-Commerce",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users create a free e-commerce site, and generate a personalized that that  potential customer to their storefront",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Styled-Components",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Bootstrap",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Redux-Toolkit",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: onhovaShot,
+        source_code_link: "https://github.com/akinleries",
+        link: "https://onhova.com/"
     },
     {
-        name: "Job IT",
+        name: "Real Estate",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that allow user search for houses to rent or buy, view to see home details.",
         tags: [
             {
-                name: "react",
+                name: "NextJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "RapidAPI",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "ChakraUI",
                 color: "pink-text-gradient",
             },
         ],

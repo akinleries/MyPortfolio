@@ -32,6 +32,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import onhovaShot from "./project-Images/onhovaShot.png";
 
 export {
   semicolon,
@@ -65,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  onhovaShot
 };

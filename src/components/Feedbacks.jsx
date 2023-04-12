@@ -41,15 +41,23 @@ const Feedbacks = () => {
             </span>
 
             <div className="flex gap-4 mt-8">
-              <Link to="https://www.linkedin.com/in/ezekiel-akintunde">
-                <BsLinkedin size={30} />
-              </Link>
-              <Link to="https://github.com/akinleries">
-                <AiOutlineGithub size={30} />
-              </Link>
-              <Link to="https://www.instagram.com/lasisiezekiel/">
-                <AiFillInstagram size={30} />
-              </Link>
+              <BsLinkedin
+                component={Link}
+                to="https://www.linkedin.com/in/ezekiel-akintunde"
+                size={30}
+              />
+
+              <AiOutlineGithub
+                size={30}
+                component={Link}
+                to="https://github.com/akinleries"
+              />
+
+              <AiFillInstagram
+                   component={Link}
+                to="https://www.instagram.com/lasisiezekiel/"
+                size={30}
+              />
             </div>
           </div>
 
