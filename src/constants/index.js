@@ -244,7 +244,7 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/akinleries/Find-Home",
     },
     {
         name: "Trip Guide",

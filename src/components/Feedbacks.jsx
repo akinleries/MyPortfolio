@@ -12,8 +12,6 @@ import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Resume from "../assets/Resume.pdf";
 
- 
-
 const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
@@ -41,23 +39,17 @@ const Feedbacks = () => {
             </span>
 
             <div className="flex gap-4 mt-8">
-              <BsLinkedin
-                component={Link}
-                to="https://www.linkedin.com/in/ezekiel-akintunde"
-                size={30}
-              />
+              <Link to="https://www.linkedin.com/in/ezekiel-akintunde">
+                <BsLinkedin size={30} />
+              </Link>
 
-              <AiOutlineGithub
-                size={30}
-                component={Link}
-                to="https://github.com/akinleries"
-              />
+              <Link to="https://github.com/akinleries">
+                <AiOutlineGithub size={30} />
+              </Link>
 
-              <AiFillInstagram
-                   component={Link}
-                to="https://www.instagram.com/lasisiezekiel/"
-                size={30}
-              />
+              <Link to="https://www.instagram.com/lasisiezekiel/">
+                <AiFillInstagram size={30} />
+              </Link>
             </div>
           </div>
 
