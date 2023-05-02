@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import onhovaShot from "./project-Images/onhovaShot.png";
+import resturant from "./project-Images/resturant.png";
 
 export {
   semicolon,
@@ -63,6 +64,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  resturant,
   carrent,
   jobit,
   tripguide,

@@ -26,7 +26,8 @@ import {
     angular,
     onhova,
     semicolon,
-    onhovaShot
+    onhovaShot,
+    resturant
 } from "../assets";
 
 export const navLinks = [
@@ -226,16 +227,16 @@ const projects = [
         link: "https://onhova.com/"
     },
     {
-        name: "Real Estate",
+        name: "Resturant",
         description:
             "Web application that allow user search for houses to rent or buy, view to see home details.",
         tags: [
             {
-                name: "NextJS",
+                name: "ReactJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "RapidAPI",
+                name: "css BEM",
                 color: "green-text-gradient",
             },
             {
@@ -243,8 +244,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/akinleries/Find-Home",
+        image: resturant,
+        source_code_link: "https://github.com/akinleries/easylydia-resturant",
+        link: "https://easylydia-resturant.netlify.app"
     },
     {
         name: "Trip Guide",
