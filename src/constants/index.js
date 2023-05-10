@@ -202,9 +202,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "E-Commerce",
+        name: "Onhova Enabling small businesses become big businesses",
         description:
-            "Web-based platform that allows users create a free e-commerce site, and generate a personalized that that  potential customer to their storefront",
+            "Web-based platform that allows online vendors create a free e-commerce site on their moblie phones in one minute, and generate a personalized link that takes potential customers to their storefront where they can make orders and recieve payment",
         tags: [
             {
                 name: "react",
