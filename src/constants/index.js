@@ -27,7 +27,8 @@ import {
     onhova,
     semicolon,
     onhovaShot,
-    resturant
+    resturant,
+    whatsapp
 } from "../assets";
 
 export const navLinks = [
@@ -249,25 +250,26 @@ const projects = [
         link: "https://easylydia-resturant.netlify.app"
     },
     {
-        name: "Trip Guide",
+        name: "Whatsapp Clone",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Whatsapp clone that has virtually all the features and functionality of Whatsapp, used AWS-AMPLIFY for the backend",
         tags: [
             {
-                name: "nextjs",
+                name: "React-Native",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Aws-Amplify",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Expo-cli",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: whatsapp,
+        source_code_link: "https://github.com/akinleries/whatsapp",
+        link: ""
     },
 ];
 

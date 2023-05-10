@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import onhovaShot from "./project-Images/onhovaShot.png";
 import resturant from "./project-Images/resturant.png";
+import whatsapp from "./project-Images/whatsapp-iphone.jpg";
 
 export {
   semicolon,
@@ -68,5 +69,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  onhovaShot
+  onhovaShot,
+  whatsapp
 };
