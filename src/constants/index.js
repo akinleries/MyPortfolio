@@ -28,7 +28,8 @@ import {
     semicolon,
     onhovaShot,
     resturant,
-    whatsapp
+    whatsapp,
+    nikeSnickers
 } from "../assets";
 
 export const navLinks = [
@@ -202,21 +203,17 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Onhova Enabling small businesses become big businesses",
+        name: "Create an online store",
         description:
-            "Web-based platform that allows online vendors create a free e-commerce site on their moblie phones in one minute, and generate a personalized link that takes potential customers to their storefront where they can make orders and recieve payment",
+            "Web-based platform that allows online vendors create a free e-commerce site on their moblie phones in one minute",
         tags: [
             {
-                name: "react",
+                name: "reactJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "Styled-Components",
-                color: "green-text-gradient",
-            },
-            {
                 name: "Bootstrap",
-                color: "pink-text-gradient",
+                color: "green-text-gradient",
             },
             {
                 name: "Redux-Toolkit",
@@ -230,7 +227,7 @@ const projects = [
     {
         name: "Resturant",
         description:
-            "Web application that allow user search for houses to rent or buy, view to see home details.",
+            "A web based react application for a resturant landing page.",
         tags: [
             {
                 name: "ReactJS",
@@ -269,6 +266,28 @@ const projects = [
         ],
         image: whatsapp,
         source_code_link: "https://github.com/akinleries/whatsapp",
+        link: ""
+    },
+    {
+        name: "Nike Snikers E-commerce",
+        description:
+            "A moblie application for nike snikers e-commerce",
+        tags: [
+            {
+                name: "React-Native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux toolkit",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Expo-cli",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: nikeSnickers,
+        source_code_link: "https://github.com/akinleries/Nike-E-commerce-App",
         link: ""
     },
 ];
