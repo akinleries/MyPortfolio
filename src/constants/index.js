@@ -120,11 +120,11 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Web Developer",
-        company_name: "Semicolon Africa",
-        icon: semicolon,
+        title: "React.js & React-native Developer",
+        company_name: "Onhova Limted",
+        icon: onhova,
         iconBg: "#383E56",
-        date: "Jan 2021 - Oct 2021",
+        date: "Oct 2021 - present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -133,18 +133,19 @@ const experiences = [
         ],
     },
     {
-        title: "React.js Developer",
-        company_name: "Onhova Limted",
-        icon: onhova,
+        title: "Software Engineer(Trainee)",
+        company_name: "Semicolon Africa",
+        icon: semicolon,
         iconBg: "#383E56",
-        date: "Nov 2021 - present",
+        date: "Jan 2021 - Jan 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            //"Work on web applications using React.js and other related technologies.",
+            //"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            //"Implementing responsive design and ensuring cross-browser compatibility.",
+            //"Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+   
     // {
     //     title: "React Native Developer",
     //     company_name: "Tesla",
