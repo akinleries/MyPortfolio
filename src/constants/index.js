@@ -29,7 +29,8 @@ import {
     onhovaShot,
     resturant,
     whatsapp,
-    nikeSnickers
+    nikeSnickers,
+    onhovaMobile
 } from "../assets";
 
 export const navLinks = [
@@ -224,6 +225,28 @@ const projects = [
         image: onhovaShot,
         source_code_link: "https://github.com/akinleries",
         link: "https://onhova.com/"
+    },
+    {
+        name: "Create an online store",
+        description:
+            "Mobile application that allows online vendors create a free e-commerce store on their moblie phones",
+        tags: [
+            {
+                name: "react-native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Expo",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Redux-Toolkit",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: onhovaMobile,
+        source_code_link: "https://github.com/akinleries",
+        link: "https://play.google.com/store/apps/details?id=ttcp.storeman.app"
     },
     {
         name: "Resturant",

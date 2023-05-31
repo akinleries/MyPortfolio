@@ -36,6 +36,7 @@ import onhovaShot from "./project-Images/onhovaShot.png";
 import resturant from "./project-Images/resturant.png";
 import whatsapp from "./project-Images/whatsapp-iphone.jpg";
 import nikeSnickers from "./project-Images/nike-snickers.jpg";
+import onhovaMobile from "./project-Images/onhova-mobile.png";
 
 export {
   semicolon,
@@ -72,5 +73,6 @@ export {
   tripguide,
   onhovaShot,
   whatsapp,
-  nikeSnickers
+  nikeSnickers,
+  onhovaMobile
 };
