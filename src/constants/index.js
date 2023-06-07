@@ -127,23 +127,22 @@ const experiences = [
         iconBg: "#383E56",
         date: "Oct 2021 - present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Led a team of front-end developers to design, develop and maintain the platform",
+            "Utilized a wide range of technical skills and tools including React, Redux, and React - native",
+            "Participated in hiring and onboarding processes for interns, and new developers and provided pieces of training and support to ensure that the team was equipped with the necessary skill set and knowledge to meet project requirements",
+            "Worked closely with backend developers to ensure that frontend components integrated smoothly with server - side APIs and other backend systems",
         ],
     },
     {
-        title: "Software Engineer(Trainee)",
+        title: "Software Engineer",
         company_name: "Semicolon Africa",
         icon: semicolon,
         iconBg: "#383E56",
         date: "Jan 2021 - Jan 2022",
         points: [
-            //"Work on web applications using React.js and other related technologies.",
-            //"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            //"Implementing responsive design and ensuring cross-browser compatibility.",
-            //"Participating in code reviews and providing constructive feedback to other developers.",
+            "Proficient in Java, Javascript, Python, ReactJS, Spring boot, and Django with hands - on experience developing projects in these technologies",
+            "Demonstrated ability to work effectively in a team environment and collaborate with cross - functional stakeholders to deliver high- quality software products",
+            "Strong problem-solving skills and ability to learn quickly, with a passion for leveraging technologies to drive innovation and create value for end - users.",
         ],
     },
    
@@ -207,28 +206,6 @@ const projects = [
     {
         name: "Create an online store",
         description:
-            "Web-based platform that allows online vendors create a free e-commerce site on their moblie phones in one minute",
-        tags: [
-            {
-                name: "reactJS",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Bootstrap",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Redux-Toolkit",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: onhovaShot,
-        source_code_link: "https://github.com/akinleries",
-        link: "https://onhova.com/"
-    },
-    {
-        name: "Create an online store",
-        description:
             "Mobile application that allows online vendors create a free e-commerce store on their moblie phones",
         tags: [
             {
@@ -248,6 +225,29 @@ const projects = [
         source_code_link: "https://github.com/akinleries",
         link: "https://play.google.com/store/apps/details?id=ttcp.storeman.app"
     },
+    {
+        name: "Create an online store",
+        description:
+            "Web-based platform that allows online vendors create a free e-commerce site on their moblie phones in one minute",
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Redux-Toolkit",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: onhovaShot,
+        source_code_link: "https://github.com/akinleries",
+        link: "https://onhova.com/"
+    },
+   
     {
         name: "Resturant",
         description:
