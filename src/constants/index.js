@@ -13,17 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
-    angular,
     onhova,
     semicolon,
     onhovaShot,
@@ -59,10 +49,6 @@ const services = [
     },
     {
         title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Angular Developer",
         icon: mobile,
     },
 
