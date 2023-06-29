@@ -10,7 +10,7 @@ import { IoIosCall } from "react-icons/io";
 import { AiFillInstagram, AiOutlineGithub } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/Ezekiel-Akintunde.pdf";
 
 const Feedbacks = () => {
   return (
@@ -55,7 +55,7 @@ const Feedbacks = () => {
 
           <a
             href={Resume}
-            download="Resume"
+            download="Ezekiel-Akintunde"
             className="bg-blue-700 hover:bg-blue-500 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
             Download Resume
